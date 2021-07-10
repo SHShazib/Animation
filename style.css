@@ -16,7 +16,7 @@
 .col {
     height: 450px;
     border-radius: 25px;
-    margin: 0 40px;
+    margin: 20px 40px;
     background-color: beige;
     position: relative;
     box-shadow: 13px 13px 25px #cbced1, -13px -13px 25px #fff;
