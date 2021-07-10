@@ -1,0 +1,62 @@
+.container {
+    margin: 0px 10%;
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+}
+.row {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}     
+.col {
+    height: 450px;
+    border-radius: 25px;
+    margin: 0 40px;
+    background-color: beige;
+    position: relative;
+    box-shadow: 13px 13px 25px #cbced1, -13px -13px 25px #fff;
+}
+.col img {
+    width: 300px;
+    margin-top: 20px;
+}
+.pinwheel {
+    position: relative;
+    z-index: 1000;
+    transition: transform 10s;
+    cursor: pointer;
+}
+.pinwheelani {
+    position: relative;
+    z-index: 1000;
+    animation: pinwheel 4s linear infinite;
+}
+.stick {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    transform: translate(-50px);
+}
+.pinwheel:hover {
+    transform: rotate(2700deg);
+}
+.about {
+    margin-top: 120px;
+    margin-left: 60px;
+}
+footer {
+    text-align: center;
+}
+@keyframes pinwheel {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(2700deg);
+    }
+}
